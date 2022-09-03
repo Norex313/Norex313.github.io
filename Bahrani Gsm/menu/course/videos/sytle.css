@@ -1,0 +1,293 @@
+body{
+    font-family: 'vasir','IBM Plex Sans', sans-serif;
+    margin: 0px ;
+    padding: 0px;
+    transition: .5s;
+    background-color: rgb(235, 235, 235);
+    min-width: 310px;
+}
+@font-face {
+    font-family: "vasir";
+    src: url(../vazir-font/Vazir.ttf);
+
+}
+img#Bahrani-Gsm{
+    float: right;
+    position: relative;
+    top: 8px;
+    width: 80px;
+    margin: 10px;
+}
+
+div.navbar{
+    width: 98%;
+    height: 85px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -8px;
+    background-color: rgb(240, 240, 240);
+    z-index: 100;
+
+}
+ul.navbar{    
+    list-style: none;
+    text-align: right;
+    
+    
+
+}
+div.navbar ul{ 
+    transition: .5s;
+}
+ul.navbar li{
+    transition: .5s;
+    margin: 30px 6px;
+    display: inline-block;
+}
+ul.navbar li a {
+    text-decoration: none;
+    
+}
+div.account{
+    text-align: left;
+    margin-top: -71px;
+    margin-left: 30px;
+    
+    
+}
+div.account span{
+    transition: .5s;
+    color: #1bb53d;
+    border: 1px solid #1bb53d;
+    padding: 10px 10px;
+    border-radius: 10px;position: relative;
+    top: 10px;
+    text-shadow: 0px 0px 15px ;
+    z-index: 110;
+}
+a:visited{
+    color:currentColor
+}
+div.account span:hover{
+    background-color: #1bb53d;
+    color: white;
+
+}
+ul.navbar li:hover{
+    color: #1bb53d;
+    border-bottom: #1bb53d 1px solid;
+}
+
+
+
+
+/* Main */
+main{
+    padding-top: 50px;
+    line-height: 15px;
+}
+
+
+
+main h3{
+    font-size: 25px;
+    color: rgb(66, 66, 66);
+}
+
+
+/* Footer */
+
+footer div.footer{
+    
+    width: 100%;
+    text-align: right;
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 47% 11% 21% 20%
+    
+}
+footer{
+   background-color: #1bb53d ; 
+}
+div.footer div{
+    margin-left: 10px;
+}
+div.footer h2{
+    padding: 2px 0px 18px 0px;
+    color: white;
+
+}
+/* div.footer h2 */
+div.footer .first{
+    padding: 26px 43px 0px 0px;
+}
+div.footer .numbers , div.instagram, div.whatsapp {
+    color: #f3f3f3;
+    padding-top: 34px;
+}
+
+div.footer .numbers h4{
+    color: #eeeeee;
+    line-height: 34px;
+}
+div.instagram img {
+    transition-duration: .3s;
+    width: 103px;
+
+
+}
+a{
+    text-decoration: none;
+}
+div.instagram img:hover{
+    width: 110px;
+}
+div.whatsapp img {
+    transition-duration: .3s;
+    width: 90px;
+    margin-top: -3px;
+}
+div.whatsapp h3{
+    color: #f3f3f3;
+}
+div.whatsapp img:hover{
+    width: 100px;
+}
+div.footer .first h3, div.footer .first h4{
+    color: #f3f3f3;
+}
+
+/* video */
+video{
+    box-shadow: 0px 0px 5px 1px;
+    width: 90vw;
+    border-radius: 6px;
+    
+}
+div.video{
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+
+@media screen and (max-width:620px){
+    div.skills{
+        height: 400px;
+        grid-template-columns:100% ;
+        grid-template-rows:   100px 100px 100px 100px;
+    }
+    div.skill-1 { 
+        border-bottom : 1px solid rgba(90, 90, 90, 0.407);
+    }
+    div.skill-4 { 
+        border-top : 1px solid rgba(90, 90, 90, 0.407)
+    }
+    div.skill-2 { 
+        border-bottom : 1px solid rgba(90, 90, 90, 0.407)
+    }
+    p#present{
+        font-size: 20px;
+    }
+    h1#text-banner, h2#text-banner{
+        font-size: 30px;
+    }
+    div.banner img ,div.banner{
+        height: 500px;
+    }
+    h1#text-banner, h2#text-banner,p#present,div.movtion-banner{
+        top:-25rem;
+        line-height: 30px;
+    }
+
+}
+@media screen and (max-width:460px){
+    p#present{
+        font-size: 20px;
+    }
+    h1#text-banner, h2#text-banner{
+        font-size: 22px;
+    }
+    div.banner img ,div.banner{
+        height: 500px;
+    }
+    h1#text-banner, h2#text-banner,p#present,div.movtion-banner{
+        top:-25rem;
+        line-height: 30px;
+    }
+    div.movtion-banner{
+        width: 184px;
+        height: 60px;
+    }
+    div.movtion-banner a h3{
+        font-size:17px
+    }
+}
+@media screen and (max-width:440px){
+
+}
+/* footer */
+
+@media screen and (max-width:1111px){
+
+    footer div.footer{
+        grid-template-columns: 57% 13% 30%;
+        grid-template-rows: 48%;
+    }
+
+}
+@media screen and (max-width:970px){
+    footer div.footer{
+        grid-template-columns: 71% 28%;
+        grid-template-rows: 48% 62%;
+      }
+    div.instagram, div.whatsapp{
+        position: relative;
+        left: 85px;
+    }
+
+}
+@media screen and (max-width:801px){
+    footer div.footer{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        
+        
+      }
+      div.footer div{
+        margin-left: 0px;
+      }
+      div.footer .first{
+        padding:26px 0px 0px 0px
+      }
+    div.instagram, div.whatsapp{
+        position: static;
+    }
+
+}
+
+/* navbar */
+
+@media screen and (max-width:400px){
+    li{
+        font-size: 15px;
+        margin: 20px 2px !important;
+        margin-right: -4px;
+    }
+    img#Bahrani-Gsm{
+        width: 48px;
+    }
+    div.account{
+        margin-top: -62px !important;
+        margin-left: 12px !important;
+    }
+    div.account span{
+        font-size: 15px;
+        padding: 10px 5px !important;
+    }
+    div.navbar{
+        height: 65px;
+    }
+}
