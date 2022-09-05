@@ -1,0 +1,462 @@
+body{
+    font-family: 'vasir','IBM Plex Sans', sans-serif;
+    margin: 0px ;
+    padding: 0px;
+    transition: .5s;
+    background-color: rgb(255, 255, 255);
+    min-width: 310px;
+}
+@font-face {
+    font-family: "vasir";
+    src: url(vazir-font/Vazir.ttf);
+
+}
+img#Bahrani-Gsm{
+    width: 40px;
+    height: 52px;
+    float: right;
+    position: relative;
+    top: 8px;
+    margin: 10px;
+}
+
+div.navbar{
+    width: 98%;
+    height: 85px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -8px;
+    background-color: rgb(240, 240, 240);
+    z-index: 100;
+}
+ul.navbar{    
+    list-style: none;
+    text-align: right;
+    
+    
+
+}
+div.navbar ul{ 
+    transition: .5s;
+}
+ul.navbar li{
+    transition: .5s;
+    margin: 30px 6px;
+    display: inline-block;
+}
+ul.navbar li a {
+    text-decoration: none;
+    
+}
+ul.navbar li a:visited{
+    color: currentColor
+}
+div.account{
+    text-align: left;
+    margin-top: -71px;
+    margin-left: 30px;
+    
+    
+}
+a:visited{
+    color:currentColor
+}
+div.account span{
+    transition: .5s;
+    color: #1bb53d;
+    border: 1px solid #1bb53d;
+    padding: 10px 10px;
+    border-radius: 10px;position: relative;
+    top: 10px;
+    text-shadow: 0px 0px 15px ;
+    z-index: 110;
+}
+div.account span:hover{
+    background-color: #1bb53d;
+    color: white;
+
+}
+ul.navbar li:hover{
+    color: #1bb53d;
+    border-bottom: #1bb53d 1px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* mani */
+main{
+    margin: 70px 10px 12px 10px;
+}
+.intro-video{
+    border-radius: 6px;
+}
+video{
+    width: 92%;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    
+}
+h1#text-one{
+    margin: 12px 21px;
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+    background-image: linear-gradient(-250deg, #00ff37, rgb(0, 119, 255) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+
+.course-point{
+    margin: 5px 20px;
+    
+}
+.course-point h2{
+    border-radius: 10px;
+    background-image: linear-gradient(-250deg, #00ff37, rgb(0, 119, 255) 100%);
+    color: #ffffff;
+    padding: 10px 10px;
+    width: 51%;
+
+}
+p#text-two1{
+    font-size: 23px;
+    max-width: 1000px;
+}
+.seasons{
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    height: 46rem;
+    max-width: 50rem
+
+    
+}
+#text-three{
+    padding: 11px 5px;
+    position: relative;
+    top: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(-250deg, #00ff37, rgb(0, 119, 255) 100%);
+    width: 12rem;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+.seasons h3{
+    background-color: rgb(0, 68, 255);
+    padding:20px 0px;
+    color: white;
+    border-radius: 10px;
+    transition-duration: .25s;
+    width: 90%;
+
+
+}
+.seasons hr{
+    width: 75%;
+    border: 1px dashed #000;
+    transition-duration: .3s;
+}
+.seasons h3:hover{
+    box-shadow:0px 0px 15px 2px rgba(0, 68, 255, 0.808);
+    font-size: 20px;
+}
+
+h2#certifs{
+    padding: 11px 12px;
+    position: relative;
+    top: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(-250deg, #00ff37, rgb(0, 119, 255) 100%);
+    width: 47%;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 19px 21px;
+ margin-bottom: 39px !important;
+
+}
+div.one{
+    
+    border-radius: 10px;
+}
+.certifs-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+text-align: center;}
+.certifs-images img{
+        width: 99%;
+}
+.certifs-images div{
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+}
+.buy-panel{
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    width: 85%;
+    line-height: 15px;
+    max-width: 25rem;
+    height: 28rem;
+    border: 1px dashed #0000006e;
+    min-width: 18rem;
+    display: inline-block;
+    margin: 10px 3px 24px 12px
+}
+.panel-countaner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+.buy-panel i{
+    opacity: 60%;
+    position: relative;
+    top: 8px;
+}
+.buy-panel i,.buy-panel p{
+    position: relative;
+    right: -3px;
+} 
+.buy-panel p{
+    right: 13px;
+}
+
+.buy-panel hr{
+    width: 85%;
+}
+.detail{
+    text-align: right;
+}
+.detail #price{
+    font-size: 23px;
+}
+.btn-sup{
+    width: 75%;
+    background-color:rgb(0, 68, 255) ;
+    /* border-radius: 10px; */
+}
+.btn-sup h3{
+    font-size: 20px;
+    padding: 18px 10px;
+    color: white;
+}
+div.btn-sup{
+    border-radius: 15px;
+}
+
+
+.buy-btn{
+    width: 75%;
+    background-color: #1bb53d;
+
+}
+.buy-btn h3{
+    font-size: 20px;
+    padding: 18px 10px;
+    color: white;
+}
+.buy-btn{
+    border-radius: 15px;
+}
+
+div.picturs h2{
+    padding: 11px 12px;
+    position: relative;
+    top: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(-250deg, #00ff37, rgb(0, 119, 255) 100%);
+    width: 47%;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 19px 21px;
+ margin-bottom: 39px !important;
+}
+div.picturs img{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 6px;
+    width: 450px;
+}
+.pic-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    text-align: center;
+}
+.pic-div h4{
+    position: relative;
+    bottom: 20px;
+    opacity: 70%;
+    text-decoration: underline;
+    transition-duration: .2s;
+}
+.pic-div h4:hover{
+    color: #1a9435;
+}
+div.buy-panel:nth-child(2) > div:nth-child(3) > p:nth-child(1) > span:nth-child(2) > a:nth-child(1){
+    text-decoration: underline;
+
+}
+/* footer */
+
+footer div.footer{
+    
+    width: 100%;
+    text-align: right;
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 47% 11% 21% 20%
+    
+}
+footer{
+   background-color: #1bb53d ; 
+}
+div.footer div{
+    margin-left: 10px;
+}
+div.footer h2{
+    padding: 2px 0px 18px 0px;
+    color: white;
+
+}
+/* div.footer h2 */
+div.footer .first{
+    padding: 26px 43px 0px 0px;
+}
+div.footer .numbers , div.instagram, div.whatsapp {
+    color: #f3f3f3;
+    padding-top: 34px;
+}
+
+div.footer .numbers h4{
+    color: #eeeeee;
+    line-height: 34px;
+}
+div.instagram img {
+    transition-duration: .3s;
+    width: 103px;
+
+}
+div.instagram img:hover{
+    width: 110px;
+}
+div.whatsapp img {
+    transition-duration: .3s;
+    width: 90px;
+    margin-top: 6px;
+}
+div.whatsapp h3{
+    color: #f3f3f3;
+}
+div.whatsapp img:hover{
+    width: 100px;
+}
+div.footer .first h3, div.footer .first h4{
+    color: #f3f3f3;
+}
+
+
+
+/* main */
+@media screen and (max-width:450px){
+    h1#text-one,.course-point h2,h2#certifs,div.picturs h2{
+        font-size: 20px;
+        
+        width: max-content;
+    }
+    div.course-point p#text-two1{
+        font-size: 20px;
+    }
+    #text-three{
+        font-size: 20px;
+    }
+    div.picturs h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    div.picturs img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:412px){
+    div.buy-panel h2{
+        font-size: 20px;
+    }
+    .detail #price{
+        font-size: 16px;
+    }
+}
+/* footer */
+
+@media screen and (max-width:1111px){
+
+    footer div.footer{
+        grid-template-columns: 57% 13% 30%;
+        grid-template-rows: 48%;
+    }
+
+}
+@media screen and (max-width:970px){
+    footer div.footer{
+        grid-template-columns: 71% 28%;
+        grid-template-rows: 48% 62%;
+      }
+    div.instagram, div.whatsapp{
+        position: relative;
+        left: 85px;
+    }
+
+}
+@media screen and (max-width:801px){
+    footer div.footer{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        
+        
+      }
+      div.footer div{
+        margin-left: 0px;
+      }
+      div.footer .first{
+        padding:26px 0px 0px 0px
+      }
+    div.instagram, div.whatsapp{
+        position: static;
+    }
+
+}
+/* navbar */
+
+@media screen and (max-width:400px){
+    li{
+        font-size: 15px;
+        margin: 20px 2px !important;
+        margin-right: -4px;
+    }
+    img#Bahrani-Gsm{
+        width: 31px;
+        top: 0px;
+        height: 45px;
+    }
+    div.account{
+        margin-top: -62px !important;
+        margin-left: 12px !important;
+    }
+    div.account span{
+        font-size: 15px;
+        padding: 10px 5px !important;
+    }
+    div.navbar{
+        height: 65px;
+    }
+}
