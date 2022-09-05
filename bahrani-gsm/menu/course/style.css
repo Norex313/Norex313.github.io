@@ -1,0 +1,266 @@
+body{
+    font-family: 'vasir','IBM Plex Sans', sans-serif;
+    margin: 0px ;
+    padding: 0px;
+    transition: .5s;
+    background-color: rgb(255, 255, 255);
+    min-width: 310px;
+}
+@font-face {
+    font-family: "vasir";
+    src: url(../../vazir-font/Vazir.ttf);
+
+}
+img#Bahrani-Gsm{
+    width: 40px;
+    height: 52px;
+    float: right;
+    position: relative;
+    top: 8px;
+    margin: 10px;
+}
+
+div.navbar{
+    width: 98%;
+    height: 85px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -8px;
+    background-color: rgb(240, 240, 240);
+    z-index: 100;
+}ul.navbar{    
+    list-style: none;
+    text-align: right;
+    
+    
+
+}
+div.navbar ul{ 
+    transition: .5s;
+}
+ul.navbar li{
+    transition: .5s;
+    margin: 30px 6px;
+    display: inline-block;
+}
+ul.navbar li a {
+    text-decoration: none;
+    
+}
+ul.navbar li a:visited{
+    color: currentColor
+}
+div.account{
+    text-align: left;
+    margin-top: -71px;
+    margin-left: 30px;
+    
+    
+}
+a:visited{
+    color:currentColor
+}
+div.account span{
+    transition: .5s;
+    color: #1bb53d;
+    border: 1px solid #1bb53d;
+    padding: 10px 10px;
+    border-radius: 10px;position: relative;
+    top: 10px;
+    text-shadow: 0px 0px 15px ;
+    z-index: 110;
+}
+div.account span:hover{
+    background-color: #1bb53d;
+    color: white;
+
+}
+ul.navbar li:hover{
+    color: #1bb53d;
+    border-bottom: #1bb53d 1px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* main */
+main{
+    margin-top: 68px;
+    margin: 68px 15px ;
+}
+main h2#videos{
+    color: white;
+    background-color: #1bb53d;
+    border-radius:20px;
+    padding: 10px ;
+    width: 92%;
+}
+div.episodes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(233px,1fr));
+}
+div.episode{
+    /* box-shadow: 0px 0px 21px -14px #272727; */
+    height: 184px;
+    text-align: center;
+    background-color: #eeeeee;
+    width: 90%;
+    border-radius: 20px;
+    transition-duration: .3s;
+    
+}
+div.episode *{
+    position:relative;
+}
+div.episode img{
+    width: 25px;
+    top: -85px;
+    left: 74px;
+    opacity: 50%;
+}
+div.episode h2{
+    top:27px;
+    font-size: 30px;
+}
+div.episode h3#name{
+    top: 10px;
+    color: #272727;
+}
+div.episode h3#time{
+    top: 11.5px;
+    left: 30px;
+    color: #272727;
+}
+div.episode h3#kind{
+    right: 55px;
+    top: -39px;
+    color: #272727;
+}
+div.episode:hover{
+    box-shadow: 0px 0px 28px -10px #272727;
+}
+/* footer */
+
+footer div.footer{
+    
+    width: 100%;
+    text-align: right;
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 47% 11% 21% 20%
+    
+}
+footer{
+   background-color: #1bb53d ; 
+}
+div.footer div{
+    margin-left: 10px;
+}
+div.footer h2{
+    padding: 2px 0px 18px 0px;
+    color: white;
+
+}
+/* div.footer h2 */
+div.footer .first{
+    padding: 26px 43px 0px 0px;
+}
+div.footer .numbers , div.instagram, div.whatsapp {
+    color: #f3f3f3;
+    padding-top: 34px;
+}
+
+div.footer .numbers h4{
+    color: #eeeeee;
+    line-height: 34px;
+}
+div.instagram img {
+    transition-duration: .3s;
+    width: 103px;
+
+}
+div.instagram img:hover{
+    width: 110px;
+}
+div.whatsapp img {
+    transition-duration: .3s;
+    width: 90px;
+    margin-top: 6px;
+}
+div.whatsapp h3{
+    color: #f3f3f3;
+}
+div.whatsapp img:hover{
+    width: 100px;
+}
+div.footer .first h3, div.footer .first h4{
+    color: #f3f3f3;
+}
+
+/* footer */
+
+@media screen and (max-width:1111px){
+
+    footer div.footer{
+        grid-template-columns: 57% 13% 30%;
+        grid-template-rows: 48%;
+    }
+
+}
+@media screen and (max-width:970px){
+    footer div.footer{
+        grid-template-columns: 71% 28%;
+        grid-template-rows: 48% 62%;
+      }
+    div.instagram, div.whatsapp{
+        position: relative;
+        left: 85px;
+    }
+
+}
+@media screen and (max-width:801px){
+    footer div.footer{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        
+        
+      }
+      div.footer div{
+        margin-left: 0px;
+      }
+      div.footer .first{
+        padding:26px 0px 0px 0px
+      }
+    div.instagram, div.whatsapp{
+        position: static;
+    }
+
+}
+/* navbar */
+
+@media screen and (max-width:400px){
+    li{
+        font-size: 15px;
+        margin: 20px 2px !important;
+        margin-right: -4px;
+    }
+    img#Bahrani-Gsm{
+        width: 31px;
+        top: 0px;
+        height: 45px;
+    }
+    div.account{
+        margin-top: -62px !important;
+        margin-left: 12px !important;
+    }
+    div.account span{
+        font-size: 15px;
+        padding: 10px 5px !important;
+    }
+    div.navbar{
+        height: 65px;
+    }
+}
